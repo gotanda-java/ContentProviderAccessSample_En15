@@ -1,6 +1,8 @@
 package example.android.contentprovideraccesssample_En15;
 
 //ContentProviderAccessSample_En15
+//https://github.com/7799/ContentProviderAccessSample_En15
+
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
