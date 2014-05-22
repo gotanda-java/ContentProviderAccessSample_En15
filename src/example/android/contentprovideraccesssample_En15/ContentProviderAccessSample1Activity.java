@@ -111,7 +111,7 @@ public class ContentProviderAccessSample1Activity extends Activity {
 					val.put("price", price.getText().toString());
 
 					String condition
-					= "productid + '" + productid.getText().toString() + "'";
+					= "productid = '" + productid.getText().toString() + "'";
 					getContentResolver().update(uri, val, condition, null);
 //					String condition = null;
 //					if (productid != null && !productid.equals("")) {
